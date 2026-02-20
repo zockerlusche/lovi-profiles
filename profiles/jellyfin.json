@@ -1,0 +1,13 @@
+{
+  "name": "Jellyfin",
+  "description": "Jellyfin Media Server",
+  "author": "zockerlusche",
+  "version": "1.0",
+  "level_error": "[ERR],[CRT]",
+  "level_warn": "[WRN]",
+  "level_info": "[INF]",
+  "level_debug": "[DBG],[TRC]",
+  "log_path_hint": "/config/log/jellyfin*.log",
+  "help_setup": "Dashboard → Logs → Log Level auf Info setzen",
+  "help_mount": "-v /opt/docker/config/jellyfin/log:/logs/jellyfin"
+}
