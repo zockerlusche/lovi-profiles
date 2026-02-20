@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "maintainer": "zockerlusche",
+  "description": "LoVi Log Format Profile Repository",
+  "profiles": [
+    {
+      "name": "ARR-Stack",
+      "description": "Radarr, Sonarr, Lidarr, Prowlarr, Readarr",
+      "author": "zockerlusche",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/arr-stack.json"
+    },
+    {
+      "name": "Nginx",
+      "description": "Nginx Webserver Error Log",
+      "author": "zockerlusche",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/nginx.json"
+    },
+    {
+      "name": "Jellyfin",
+      "description": "Jellyfin Media Server",
+      "author": "zockerlusche",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/jellyfin.json"
+    },
+    {
+      "name": "Traefik",
+      "description": "Traefik Reverse Proxy",
+      "author": "zockerlusche",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/traefik.json"
+    },
+    {
+      "name": "Home Assistant",
+      "description": "Home Assistant Automation",
+      "author": "zockerlusche",
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/home-assistant.json"
+    }
+  ]
+}
