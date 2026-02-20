@@ -1,0 +1,13 @@
+{
+  "name": "Traefik",
+  "description": "Traefik Reverse Proxy",
+  "author": "zockerlusche",
+  "version": "1.0",
+  "level_error": "error",
+  "level_warn": "warn",
+  "level_info": "info",
+  "level_debug": "debug",
+  "log_path_hint": "/var/log/traefik/traefik.log",
+  "help_setup": "traefik.yml: log: level: INFO filePath: /var/log/traefik/traefik.log",
+  "help_mount": "-v /opt/docker/config/traefik/logs:/logs/traefik"
+}
