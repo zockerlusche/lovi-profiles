@@ -1,0 +1,13 @@
+{
+  "name": "Jellyfin",
+  "description": "Media server",
+  "author": "LoVi",
+  "version": "1.0",
+  "level_error": "ERR,CRIT",
+  "level_warn": "WARN",
+  "level_info": "INF",
+  "level_debug": "DBG",
+  "log_path_hint": "/opt/docker/logs/jellyfin/jellyfin.log",
+  "help_setup": "Kein Setup nötig – Jellyfin loggt automatisch",
+  "help_mount": "# Zu deinem Jellyfin docker-compose.yml hinzufügen:\nvolumes:\n  - /opt/docker/jellyfin/config:/config\n  - /opt/docker/jellyfin/config/log:/opt/docker/logs/jellyfin\n\n# LoVi's docker-compose.yml bleibt unverändert:\nvolumes:\n  - /opt/docker/logs:/logs"
+}
