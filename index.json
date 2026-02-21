@@ -1,42 +1,16 @@
 {
-  "version": "1.0",
-  "maintainer": "zockerlusche",
-  "description": "LoVi Log Format Profile Repository",
   "profiles": [
-    {
-      "name": "ARR-Stack",
-      "description": "Radarr, Sonarr, Lidarr, Prowlarr, Readarr",
-      "author": "zockerlusche",
-      "version": "1.0",
-      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/arr-stack.json"
-    },
-    {
-      "name": "Nginx",
-      "description": "Nginx Webserver Error Log",
-      "author": "zockerlusche",
-      "version": "1.0",
-      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/nginx.json"
-    },
-    {
-      "name": "Jellyfin",
-      "description": "Jellyfin Media Server",
-      "author": "zockerlusche",
-      "version": "1.0",
-      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/jellyfin.json"
-    },
-    {
-      "name": "Traefik",
-      "description": "Traefik Reverse Proxy",
-      "author": "zockerlusche",
-      "version": "1.0",
-      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/traefik.json"
-    },
-    {
-      "name": "Home Assistant",
-      "description": "Home Assistant Automation",
-      "author": "zockerlusche",
-      "version": "1.0",
-      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/home-assistant.json"
-    }
+    {"name": "Radarr",         "description": "Movie collection manager",          "author": "LoVi", "version": "1.0", "category": "ARR",        "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/radarr.json"},
+    {"name": "Sonarr",         "description": "TV series collection manager",       "author": "LoVi", "version": "1.0", "category": "ARR",        "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/sonarr.json"},
+    {"name": "Lidarr",         "description": "Music collection manager",           "author": "LoVi", "version": "1.0", "category": "ARR",        "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/lidarr.json"},
+    {"name": "Readarr",        "description": "Book collection manager",            "author": "LoVi", "version": "1.0", "category": "ARR",        "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/readarr.json"},
+    {"name": "Prowlarr",       "description": "Indexer manager for ARR apps",      "author": "LoVi", "version": "1.0", "category": "ARR",        "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/prowlarr.json"},
+    {"name": "Whisparr",       "description": "Adult content collection manager",  "author": "LoVi", "version": "1.0", "category": "ARR",        "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/whisparr.json"},
+    {"name": "SABnzbd",        "description": "Usenet download client",            "author": "LoVi", "version": "1.0", "category": "Download",    "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/sabnzbd.json"},
+    {"name": "Jellyfin",       "description": "Media server",                      "author": "LoVi", "version": "1.0", "category": "Media",      "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/jellyfin.json"},
+    {"name": "Nginx",          "description": "Web server / reverse proxy",        "author": "LoVi", "version": "1.0", "category": "Network",    "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/nginx.json"},
+    {"name": "Traefik",        "description": "Reverse proxy and load balancer",   "author": "LoVi", "version": "1.0", "category": "Network",    "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/traefik.json"},
+    {"name": "Home Assistant", "description": "Home automation platform",          "author": "LoVi", "version": "1.0", "category": "Automation", "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/homeassistant.json"},
+    {"name": "Syslog",         "description": "Linux system log",                  "author": "LoVi", "version": "1.0", "category": "System",     "url": "https://raw.githubusercontent.com/zockerlusche/lovi-profiles/main/profiles/syslog.json"}
   ]
 }
