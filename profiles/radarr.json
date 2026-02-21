@@ -1,0 +1,13 @@
+{
+  "name": "Radarr",
+  "description": "Movie collection manager",
+  "author": "LoVi",
+  "version": "1.0",
+  "level_error": "ERROR,CRITICAL",
+  "level_warn": "WARN,WARNING",
+  "level_info": "Info",
+  "level_debug": "Debug",
+  "log_path_hint": "/opt/docker/logs/radarr/radarr.txt",
+  "help_setup": "Settings → General → Log Level → Debug",
+  "help_mount": "# Zu deinem Radarr docker-compose.yml hinzufügen:\nvolumes:\n  - /opt/docker/radarr/config:/config\n  - /opt/docker/radarr/config/logs:/opt/docker/logs/radarr\n\n# LoVi's docker-compose.yml bleibt unverändert:\nvolumes:\n  - /opt/docker/logs:/logs"
+}

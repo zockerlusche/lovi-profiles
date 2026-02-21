@@ -1,0 +1,13 @@
+{
+  "name": "Syslog",
+  "description": "Linux system log",
+  "author": "LoVi",
+  "version": "1.0",
+  "level_error": "error,err,crit,alert,emerg",
+  "level_warn": "warn,warning",
+  "level_info": "info,notice",
+  "level_debug": "debug",
+  "log_path_hint": "/opt/docker/logs/syslog/syslog",
+  "help_setup": "Kein Setup nötig – Linux loggt automatisch nach /var/log/syslog",
+  "help_mount": "# Zu deinem LoVi docker-compose.yml hinzufügen:\nvolumes:\n  - /opt/docker/logs:/logs\n  - /var/log:/opt/docker/logs/syslog:ro\n\n# Hinweis: Syslog ist der einzige Sonderfall –\n# hier wird LoVi's Compose angepasst, nicht eine App!"
+}

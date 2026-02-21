@@ -1,0 +1,13 @@
+{
+  "name": "Whisparr",
+  "description": "Adult content collection manager",
+  "author": "LoVi",
+  "version": "1.0",
+  "level_error": "ERROR,CRITICAL",
+  "level_warn": "WARN,WARNING",
+  "level_info": "Info",
+  "level_debug": "Debug",
+  "log_path_hint": "/opt/docker/logs/whisparr/whisparr.txt",
+  "help_setup": "Settings → General → Log Level → Debug",
+  "help_mount": "# Zu deinem Whisparr docker-compose.yml hinzufügen:\nvolumes:\n  - /opt/docker/whisparr/config:/config\n  - /opt/docker/whisparr/config/logs:/opt/docker/logs/whisparr\n\n# LoVi's docker-compose.yml bleibt unverändert:\nvolumes:\n  - /opt/docker/logs:/logs"
+}
